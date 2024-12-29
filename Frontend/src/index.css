@@ -1,0 +1,43 @@
+/* Global styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #444;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}

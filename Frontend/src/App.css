@@ -1,0 +1,53 @@
+/* Container for the app */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title and subtitles */
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Saved addresses list */
+.saved-addresses {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.address-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.address-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.coordinates {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 5px;
+  display: block;
+}
