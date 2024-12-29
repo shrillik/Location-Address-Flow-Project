@@ -3,6 +3,35 @@
 This project implements a Location/Address flow using React for the frontend and Node.js for the backend. It allows users to manage their delivery locations, integrating Google Maps for geolocation and manual address selection.
 
 ---
+## File Structure
+Frontend/
+src/
+├── components/
+│   ├── Modal.js
+│   ├── MapView.js
+│   ├── AddressForm.js
+│   └── AddressList.js
+├── pages/
+│   ├── Home.js
+│   ├── AddressManagement.js
+│   └── LocationSelection.js
+├── utils/
+│   ├── api.js
+│   └── geolocation.js
+├── App.js
+├── index.js
+└── .env
+
+
+Backend/
+├── controllers/
+│   ├── addressController.js
+├── models/
+│   ├── address.js
+├── routes/
+│   ├── addressRoutes.js
+├── server.js
+└── .env
 
 ## Features
 
